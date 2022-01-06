@@ -4,8 +4,8 @@ LABEL io.openshift.s2i.destination="/tmp"  \
       io.openshift.s2i.scripts-url="image:///usr/local/s2i" \
       maintainer="Red Hat SAP Community of Practice"
 
-ENV SAPMACHINE_FILE_NAME='sapmachine-jdk-11.0.5-1.x86_64.rpm' \
-    HYBRIS_FILE_NAME='hybris.tar.gz' \
+ENV SAPMACHINE_FILE_NAME='sap/sapmachine/sapmachine/1.0.0/sapmachine-1.0.0.x86_64.rpm' \
+    HYBRIS_FILE_NAME='sap/commerce/hybris/2105.4/hybris-2105.4.tar.gz' \
     HYBRIS_HOME='/opt/hybris' \
     STAGING_DIR='/tmp/staging'
 

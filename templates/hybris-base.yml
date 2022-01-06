@@ -101,12 +101,12 @@ parameters:
   displayName: Git Repository URL
   description: The URL of the repository with your application source code.
   required: true
-  value: https://github.com/redhat-sap/sap-commerce.git
+  value: https://github.com/nelhosni-digitalhba/hybris2105.git
 - name: SOURCE_REPOSITORY_REF
   displayName: Git Reference
   description: Set this to a branch name, tag or other ref of your repository if you
-    are not using the default (master) branch.
-  value: master
+    are not using the default (main) branch.
+  value: main
 - name: SOURCE_CONTEXT_DIR
   displayName: Git Context Directory
   description: Set this to the directory where the build information is (e.g. Dockerfile)
